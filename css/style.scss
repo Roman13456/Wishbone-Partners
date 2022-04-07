@@ -1,0 +1,63 @@
+$main_font: 'Poppins', sans-serif;
+@mixin max-screen($res) {
+  @media screen and (max-width: $res) {
+    @content;
+  }
+}
+header{
+  .navbar-light{
+    .navbar-nav{
+      .nav-item{
+        transition: 0.3s;
+        margin-left: 32px;
+        .nav-link{
+          font-family: $main_font;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 15px;
+          line-height: 24px;
+          color: #1B1A1A;
+          padding: 0;
+        }
+        &:hover, &.active{
+          .nav-link{
+            text-shadow: 2px 2px #ff0000;
+          }
+        }
+        &:last-of-type{
+          background: #1B1A1A;
+          border-radius: 14px;
+          padding: 11px 20px;
+          .nav-link{
+            font-size: 1rem;
+            color: white;
+          }
+        }
+      }
+    }
+  }
+}
+.main_banner{
+  background-color: #ECE7E4;
+}
+
+.Reeding_House{
+  background-image: url("../images/cool_image.jpg");
+  background-size: cover;
+  min-height: 600px;
+  &.marble_staircase{
+    background-image: url("../images/IMAGE2.jpg");
+  }
+  &.marble_staircase1{
+    background-image: url("../images/IMAGE3.jpg");
+  }
+  @include max-screen(992px){
+    background-position: -650px;
+  }
+  .row{
+    min-height: 600px;
+  }
+  p{
+    max-width: 285px;
+  }
+}
