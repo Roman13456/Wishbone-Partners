@@ -81,6 +81,9 @@ header .navbar-light .navbar-nav .nav-item {
 
 .our_firm {
   padding: 100px 0 128px; }
+  @media screen and (max-width: 767px) {
+    .our_firm {
+      padding: 50px 0 64px; } }
   .our_firm .row h3 {
     font-family: "Poppins", sans-serif;
     font-style: normal;
@@ -160,9 +163,16 @@ header .navbar-light .navbar-nav .nav-item {
     .Reeding_House .row .col-12.col-md-4 {
       max-width: 285px;
       margin-right: 45px; }
+      @media screen and (max-width: 767px) {
+        .Reeding_House .row .col-12.col-md-4 {
+          margin-right: 0;
+          margin-left: 0; } }
 
 .how_we_do {
   padding: 100px 0 110px; }
+  @media screen and (max-width: 767px) {
+    .how_we_do {
+      padding: 50px 0 55px; } }
   .how_we_do .row div:first-child h4 {
     font-family: "Poppins", sans-serif;
     font-style: normal;
@@ -208,6 +218,9 @@ header .navbar-light .navbar-nav .nav-item {
 .priorClients {
   background: #403E3B;
   padding: 100px 0; }
+  @media screen and (max-width: 767px) {
+    .priorClients {
+      padding: 50px 0; } }
   .priorClients .col-12.col-md-6 h5 {
     font-family: "Poppins", sans-serif;
     font-style: normal;
@@ -238,6 +251,9 @@ header .navbar-light .navbar-nav .nav-item {
 
 .Featured_projects {
   padding: 113px 0 111px; }
+  @media screen and (max-width: 767px) {
+    .Featured_projects {
+      padding: 55px 0; } }
   .Featured_projects .row:last-of-type div {
     margin-bottom: 15px;
     display: block; }
@@ -278,6 +294,9 @@ header .navbar-light .navbar-nav .nav-item {
 
 .meet_Team {
   padding: 96px 0 128px; }
+  @media screen and (max-width: 767px) {
+    .meet_Team {
+      padding: 50px 0 64px; } }
   @media screen and (max-width: 767px) {
     .meet_Team .container .row .col-12.col-md-4 .d-flex {
       flex-direction: column;
@@ -342,6 +361,9 @@ header .navbar-light .navbar-nav .nav-item {
 .getInTouch {
   background: #CEC4BC;
   padding: 100px 0 117px; }
+  @media screen and (max-width: 767px) {
+    .getInTouch {
+      padding: 50px 0 60px; } }
   .getInTouch .container .row .col-12.col-md-6 h5 {
     font-family: "Poppins", sans-serif;
     font-style: normal;

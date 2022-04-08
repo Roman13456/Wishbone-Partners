@@ -131,7 +131,9 @@ header {
 
 .our_firm {
   padding: 100px 0 128px;
-
+  @media screen and (max-width: 767px) {
+    padding: 50px 0 64px;
+  }
   .row {
     h3 {
       font-family: $main_font;
@@ -236,13 +238,19 @@ header {
     .col-12.col-md-4{
       max-width: 285px;
       margin-right: 45px;
+      @include max-screen(767px) {
+        margin-right: 0;
+        margin-left: 0;
+      }
     }
   }
 }
 
 .how_we_do {
   padding: 100px 0 110px;
-
+  @media screen and (max-width: 767px) {
+    padding: 50px 0 55px;
+  }
   .row {
     div:first-child {
       h4 {
@@ -304,7 +312,9 @@ header {
 .priorClients {
   background: #403E3B;
   padding: 100px 0;
-
+  @media screen and (max-width: 767px) {
+    padding: 50px 0;
+  }
   .col-12.col-md-6 {
     h5 {
       font-family: $main_font;
@@ -347,7 +357,9 @@ header {
 
 .Featured_projects {
   padding: 113px 0 111px;
-
+  @media screen and (max-width: 767px) {
+    padding: 55px 0;
+  }
   .row {
     &:last-of-type {
       div{
@@ -402,7 +414,9 @@ header {
 
 .meet_Team {
   padding: 96px 0 128px;
-
+  @media screen and (max-width: 767px) {
+    padding: 50px 0 64px;
+  }
   .container {
     .row {
       .col-12.col-md-4 {
@@ -491,7 +505,9 @@ header {
 .getInTouch {
   background: #CEC4BC;
   padding: 100px 0 117px;
-
+  @media screen and (max-width: 767px) {
+    padding: 50px 0 60px;
+  }
   .container {
     .row {
       .col-12.col-md-6 {
