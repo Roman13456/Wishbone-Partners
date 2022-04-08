@@ -52,6 +52,7 @@ header .navbar-light .navbar-nav .nav-item {
       font-size: 64px;
       line-height: 70px;
       color: #1B1A1A;
+      margin-top: 0;
       margin-bottom: 18px;
       max-width: 417px; }
       @media screen and (max-width: 1024px) {

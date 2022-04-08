@@ -88,6 +88,7 @@ header {
           font-size: 64px;
           line-height: 70px;
           color: #1B1A1A;
+          margin-top: 0;
           margin-bottom: 18px;
           max-width: 417px;
           @include max-screen(1024px) {
