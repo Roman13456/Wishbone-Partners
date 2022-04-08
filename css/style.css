@@ -54,6 +54,12 @@ header .navbar-light .navbar-nav .nav-item {
       color: #1B1A1A;
       margin-bottom: 18px;
       max-width: 417px; }
+      @media screen and (max-width: 1024px) {
+        .main_banner .container-fluid .justify-content-end .col-12.col-md-5 h1 {
+          font-size: 55px; } }
+      @media screen and (max-width: 992px) {
+        .main_banner .container-fluid .justify-content-end .col-12.col-md-5 h1 {
+          font-size: 45px; } }
     .main_banner .container-fluid .justify-content-end .col-12.col-md-5 p {
       max-width: 509px;
       font-family: "Poppins", sans-serif;
